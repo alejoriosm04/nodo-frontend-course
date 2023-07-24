@@ -19,4 +19,4 @@ function validadorTarjetasCredito(tarjetaCredito) {
 }
 
 let tarjetaCredito = prompt("Ingrese el número de su tarjeta de crédito")
-console.log(validadorTarjetasCredito(tarjetaCredito))
+alert(validadorTarjetasCredito(tarjetaCredito) ? "Tarjeta de crédito válida" : "Tarjeta de crédito inválida")
