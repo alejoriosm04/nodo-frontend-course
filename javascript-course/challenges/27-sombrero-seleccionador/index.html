@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sombrero Seleccionador</title>
+</head>
+<body>
+    <h1>¡Bienvenido al Sombrero Seleccionador de Hogwarts!</h1>
+    <p>Responde las siguientes preguntas para conocer tu casa:</p>
+
+    <div>
+        <label for="valentia">¿Valoras la valentía y el coraje?</label>
+        <input type="radio" name="valentia" value="Sí">Sí
+        <input type="radio" name="valentia" value="No">No
+    </div>
+
+    <div>
+        <label for="ambicion">¿Te consideras ambicioso y astuto?</label>
+        <input type="radio" name="ambicion" value="Sí">Sí
+        <input type="radio" name="ambicion" value="No">No
+    </div>
+
+    <div>
+        <label for="estudio">¿Dedicas mucho tiempo al estudio y el aprendizaje?</label>
+        <input type="radio" name="estudio" value="Sí">Sí
+        <input type="radio" name="estudio" value="No">No
+    </div>
+
+    <div>
+        <label for="lealtad">¿Eres leal y valoras la amistad?</label>
+        <input type="radio" name="lealtad" value="Sí">Sí
+        <input type="radio" name="lealtad" value="No">No
+    </div>
+
+    <div>
+        <label for="creatividad">¿Prefieres la creatividad y la originalidad?</label>
+        <input type="radio" name="creatividad" value="Sí">Sí
+        <input type="radio" name="creatividad" value="No">No
+    </div>
+
+    <button id="calcularBtn">Calcular Casa</button>
+    <p id="resultado"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
